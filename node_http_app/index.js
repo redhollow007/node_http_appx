@@ -24,7 +24,7 @@ const server = http.createServer( (req, res) => {
         res.statusCode = 200; // ok
         res.setHeader('Content-Type', 'text/html');
         res.end(data, 'utf8');
-        console.log(err. message);
+      //  console.log(err. message);
     });
 
 });
