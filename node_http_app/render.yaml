@@ -1,0 +1,4 @@
+services:
+  web:
+    build: npm install && npm run build
+    publish: dist
