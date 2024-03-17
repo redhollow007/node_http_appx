@@ -1,4 +1,7 @@
 services:
-  web:
-    build: npm install && npm run build
-    publish: dist
+ - type: web
+    name: your-service-name
+    env: docker
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    staticPublishPath: dist
