@@ -1,7 +1,7 @@
 services:
  - type: web
-    name: your-service-name
-    env: docker
+    name: node_http_appx
+    env: node
     buildCommand: npm install && npm run build
     startCommand: npm start
     staticPublishPath: dist
