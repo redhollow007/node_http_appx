@@ -1,6 +1,6 @@
 services:
  - type: web
-    name: node_http_appx
+    name: bololo
     env: node
     buildCommand: npm install && npm run build
     startCommand: npm start
